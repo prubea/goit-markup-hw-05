@@ -201,6 +201,7 @@ img {
   /* 16 */
   letter-spacing: 0.02em;
   color: var(--dark-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navi-list-link:hover,
@@ -217,8 +218,8 @@ img {
 .adres-footer-list-item > .link:focus {
   color: var(--main-color);
   fill: var(--main-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .adres,
@@ -318,13 +319,14 @@ img {
   margin-left: auto;
   margin-right: auto;
   /* margin-bottom: 200px; */
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-main:hover,
+/* .button-main:hover,
 .button-main:focus {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .button-portfolio {
   font-weight: 500;
@@ -337,6 +339,7 @@ img {
   background-color: var(--button-color);
   height: 38px;
   cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-main,
@@ -352,8 +355,8 @@ img {
   0px 1px 2px rgba(0, 0, 0, 0.08),
   0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
 }
 
 /* main page - atuts */
@@ -550,6 +553,7 @@ img {
   align-items: center;
   justify-content: center;
   fill: var(--litegray-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-social-list-link:not(:last-child) {
@@ -560,8 +564,8 @@ img {
 .team-social-list-link:hover {
   background-color: var(--main-color);
   fill: var(--white-color);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 /* .team-social-icon {
@@ -604,14 +608,15 @@ img {
   margin-bottom: 94px;
   align-items: center;
   justify-content: center;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .klient-social-list-link:focus,
 .klient-social-list-link:hover {
   border-color: var(--main-color);
   fill: var(--main-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 /* .klient-social-icon {
@@ -697,6 +702,7 @@ img {
   position: relative;
   cursor: pointer;
   overflow: hidden;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .img-figure .overlay-portfolio {
@@ -851,7 +857,7 @@ img {
   0px 1px 1px rgba(0, 0, 0, 0.14),
   0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  transition: oposity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.05, 0.7, 0.8, 0.5);
   /* transform: scale(1);
   animation: roadRunnerIn 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; */
   cursor: pointer;
@@ -872,7 +878,6 @@ img {
   min-height: 581px;
   background-color: var(--white-color);
   cursor: pointer;
-  /* transition: oposity 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .iksik {
